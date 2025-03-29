@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Image Generator</title>
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <style>
+        body {
+            min-height: 100vh;
+            background-image: url(./imgg1.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+    <h1>AI-Powered Image Creation from Text</h1>
+
+    <!-- Output Image Section -->
+    <div class="output">
+        <img id="image" src="" alt="Generated image will appear here">
+    </div>
+
+    <!-- Input and Button Section -->
+    <div class="input">
+        <input type="text" id="input" placeholder="Enter your prompt here...">
+        <button id="btn">Generate Image</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
